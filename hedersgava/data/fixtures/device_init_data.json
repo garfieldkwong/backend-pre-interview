@@ -1,0 +1,42 @@
+[
+  {
+    "model": "data.device",
+    "pk": 1,
+    "fields": {
+      "type": "temperature_sensor",
+      "device_id": "G3112"
+    }
+  },
+  {
+    "model": "data.device",
+    "pk": 2,
+    "fields": {
+      "type": "voltage_meter",
+      "device_id": "SCC-525"
+    }
+  },
+  {
+    "model": "data.device",
+    "pk": 3,
+    "fields": {
+      "type": "current_meter",
+      "device_id": "SGB-11233"
+    }
+  },
+  {
+    "model": "data.device",
+    "pk": 4,
+    "fields": {
+      "type": "power_meter",
+      "device_id": "SGC-1552"
+    }
+  },
+  {
+    "model": "data.device",
+    "pk": 5,
+    "fields": {
+      "type": "power_meter",
+      "device_id": "SGD-12344"
+    }
+  }
+]

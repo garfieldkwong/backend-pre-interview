@@ -16,8 +16,10 @@ Including another URLconf
 from django.contrib import admin
 from django.conf.urls import url
 from echo import views
+from data.views.data import handler as data_handler
 
 urlpatterns = [  # pylint: disable=invalid-name
     url(r'^echo/$', views.echo),
     url('admin/', admin.site.urls),
+    url('data/(.*)', data_handler.DataView.as_view())
 ]

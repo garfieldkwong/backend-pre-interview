@@ -12,6 +12,8 @@ mypy = "*"
 pylint = "*"
 pytest-django = "*"
 pylint-django = "*"
+djangorestframework-xml = "*"
+python-dateutil = "*"
 
 [dev-packages]
 
