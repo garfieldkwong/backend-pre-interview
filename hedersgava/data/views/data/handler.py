@@ -58,7 +58,7 @@ class DataView(APIView):
         # And will filter the data by this parameter.
         if format is not None and format != '':
             if format.isdigit():  # If the parameter is a digit, it will be considered as timestamp.
-                target_datetime = datetime.datetime.fromtimestamp(format)
+                target_datetime = datetime.datetime.fromtimestamp(int(format))
             else:
                 try:
                     target_datetime = dateutil.parser.parse(format)
